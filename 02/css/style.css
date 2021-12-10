@@ -1,0 +1,67 @@
+p{
+    font-size: 24px;
+    text-align: center;
+}
+
+a{
+    border-bottom: purple solid 1px;
+}
+
+.dac-biet{
+    color: red;
+}
+
+.in-nghieng{
+    font-style: italic;
+}
+
+#so-1{
+    text-decoration: underline;
+}
+
+/*
+Inline & Block
+*/
+
+.btn{
+    /* padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px; */
+
+    padding: 12px 24px;
+    
+    margin: 20px 30px;
+    border: 1px solid #ffce00;
+
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s ease-in-out all;
+}
+
+.btn-primary{
+    background-color: blue;
+    color: #fff;
+}
+
+.btn-primary:hover{
+    background-color: saddlebrown;
+}
+
+.btn-secondary{
+    background-color: purple;
+    color: #fff;
+}
+
+.btn-secondary:hover{
+    transform: scale(105%);
+}
+
+#content{
+    max-width: 480px;
+}
+
+#content .content-style-1 p{
+    text-align: left;
+}

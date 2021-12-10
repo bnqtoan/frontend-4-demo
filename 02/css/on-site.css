@@ -1,0 +1,58 @@
+html{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    margin: 0;
+}
+
+.section-purple{
+    background: #8C30F5;
+    color: white;
+}
+
+.section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.section h3{
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 40px;  
+    max-width: 730px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.section .btn{
+    margin-bottom: 64px;
+}
+.btn{
+    border-radius: 6px;
+    padding: 12px 32px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-white{
+    color: #8C30F5;
+    background: #fff;
+}
+.btn-white:hover{
+    background: #0B0D17;
+    color: white;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+.feature-item{
+    display: flex;
+    column-gap: 16px;
+}
