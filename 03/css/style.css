@@ -1,0 +1,30 @@
+h1{
+    color: red;
+    font-size: 48px;
+}
+
+ /* break points */
+
+ /* 
+ 320
+ 480
+ 768
+ 1024
+ 1280
+ 1366
+ 1440
+ */
+
+@media screen and (min-width: 768px) {
+    h1{
+        font-size: 64px;
+        color: blue;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    h1{
+        font-size: 96px;
+        color: yellow;
+    }
+}
