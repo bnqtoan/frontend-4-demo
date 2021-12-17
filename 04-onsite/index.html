@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <section class="lg:py-64 py-16">
+        <div class="container">
+            <div class="bg-brand-purple text-white px-12 py-10 rounded-2xl relative">
+                <div class="grid lg:grid-cols-2 items-center">
+                    <div>
+                        <h3>Headline</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</p>
+                        <a href="#">Get started</a>
+                    </div>
+                    <div class="flex justify-center">
+                        <img class="lg:absolute lg:right-0 lg:top-1/2 transform lg:-translate-y-1/2" src="./images/Feature/Single/Mobile/iPhone X.png" alt="iphone x">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="bg-gray-100 py-16 text-center px-8 sm:px-0">
+        <h2 class="text-2xl font-extrabold">Our Clients Speak</h2>
+        <p class="mb-10">We have been working with clients around the world</p>
+        <div class="container mx-auto">
+            <div class="carousel">
+                <div class="px-[15px]">
+                    <div class="p-10 bg-white rounded-lg relative lg:shadow-grey">
+                        <h4>Efficient Collaborating</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                        <div class="down-arrow absolute left-1/2 -bottom-5 transform -translate-x-1/2"></div>
+                    </div>
+                    <div class="flex flex-col items-center mt-8">
+                        <img class="w-24 h-24 rounded-full" src="./images/avt.png" alt="avt">
+                        <h4 class="mt-2">Name 1</h4>
+                        <p>Director</p>
+                    </div>
+                </div>
+                <div class="px-[15px]">
+                    <div class="p-10 bg-white rounded-lg relative lg:shadow-grey">
+                        <h4>Efficient Collaborating</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                        <div class="down-arrow absolute left-1/2 -bottom-5 transform -translate-x-1/2"></div>
+                    </div>
+                    <div class="flex flex-col items-center mt-8">
+                        <img class="w-24 h-24 rounded-full" src="./images/avt.png" alt="avt">
+                        <h4 class="mt-2">Name 2</h4>
+                        <p>Director</p>
+                    </div>
+                </div>
+                <div class="px-[15px]">
+                    <div class="p-10 bg-white rounded-lg relative lg:shadow-grey">
+                        <h4>Efficient Collaborating</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                        <div class="down-arrow absolute left-1/2 -bottom-5 transform -translate-x-1/2"></div>
+                    </div>
+                    <div class="flex flex-col items-center mt-8">
+                        <img class="w-24 h-24 rounded-full" src="./images/avt.png" alt="avt">
+                        <h4 class="mt-2">Name 3</h4>
+                        <p>Director</p>
+                    </div>
+                </div>
+                <div class="px-[15px]">
+                    <div class="p-10 bg-white rounded-lg relative lg:shadow-grey">
+                        <h4>Efficient Collaborating</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                        <div class="down-arrow absolute left-1/2 -bottom-5 transform -translate-x-1/2"></div>
+                    </div>
+                    <div class="flex flex-col items-center mt-8">
+                        <img class="w-24 h-24 rounded-full" src="./images/avt.png" alt="avt">
+                        <h4 class="mt-2">Name 4</h4>
+                        <p>Director</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function(){
+                $('.carousel').slick({
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    arrows: false,
+                    dots: true,
+                    responsive: [
+                        {
+                            breakpoint: 1024,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                            }
+                        }
+                    ]
+                });
+        });
+    </script>
+</body>
+</html>

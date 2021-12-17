@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.down-arrow{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 22.5px 0 22.5px;
+    border-color: #ffffff transparent transparent transparent;
+}
+
+.slick-dots li.slick-active button::before{
+    font-size: 20px;
+    color: #2EC5CE;
+}

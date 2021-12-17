@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS demo</title>
+    <style>
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: purple;
+            transition: all .3s ease-in-out;
+        }
+        .box.box-yellow{
+            background-color: yellow;
+        }
+        .fly-me-to-the-moon{
+            animation: fly-me 1s ease-in-out forwards 1;
+        }
+
+        @keyframes fly-me {
+            0% {
+                border-radius: 0;
+            }
+
+            50% {
+                transform: translate3d(100px, 0, 0);
+                width: 100px;
+                height: 100px;
+            }
+            100%{
+                border-radius: 100%;
+                background-color: yellow;
+                transform: translate3d(0, 100px, 0);
+            }
+        }
+    </style> 
+</head>
+<body>
+
+    <input type="text" onkeyup="document.getElementById('result').innerHTML  = 'Hello: ' + event.target.value">
+
+    <span id="result"></span>
+
+    <button id="click-me">
+        Fly me to the moon
+    </button>
+
+    <div class="box" id="box-1">
+
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

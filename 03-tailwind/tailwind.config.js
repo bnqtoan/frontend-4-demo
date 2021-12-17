@@ -9,10 +9,13 @@ module.exports = {
     },
     extend: {
       colors: {
+        brand: {
+          purple: '#8C30F5'
+        },
         gray: {
           100: '#F4F5F7'
         }
-      }
+      },
     },
   },
   variants: {
